@@ -12,3 +12,12 @@ export async function cadastrarUsuario(dadosDoUsuario){
     //se sim retorne os dadps no formato json
     return response.json();
 }
+
+export const consultarUsuarios = async () => {
+    const response = await fetch('/api/usuarios'); // Altere a URL para o seu endpoint
+    if (!response.ok) {
+        throw new Error('Erro ao buscar usuários');
+    }
+    return await response.json();
+}
+
