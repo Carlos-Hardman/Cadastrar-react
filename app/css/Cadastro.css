@@ -2,6 +2,7 @@ body{
     margin:0px;
 }
 .body-cadastro{
+    font-family:arial;
     background:white;
     display:flex;
     flex-direction:column;
@@ -10,13 +11,16 @@ body{
     margin:0;
     height:100vh;
 }
+
 form{
+    position:relative;
     display:flex;
     flex-direction:column;
     width:200px;
     border:solid black 1px;
     border-radius:10px;
-    padding:40px;
+    background:ghostwhite;
+    padding:50px;
     height:250px;
 
    
@@ -32,4 +36,13 @@ button{
     margin-top:0px;
 
     text-align:center;
+}
+#versenha{
+    position:absolute;
+    top:180px;
+    left:255px;
+    border:none;
+    background:white;
+    width:20px;
+    font-size:20px;
 }

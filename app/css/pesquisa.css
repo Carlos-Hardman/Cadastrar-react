@@ -1,0 +1,8 @@
+.listausuario{
+    border:solid black;
+    padding:10px;
+    margin-bottom:10px;
+    width:300px;
+    text-align:center;
+    list-style:none;
+}
