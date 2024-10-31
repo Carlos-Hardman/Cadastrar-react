@@ -1,4 +1,6 @@
 .listausuario{
+    display:flex;
+    justify-content:space-between;
     border:solid black;
     padding:10px;
     margin-bottom:10px;
