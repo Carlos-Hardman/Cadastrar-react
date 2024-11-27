@@ -18,6 +18,7 @@ export default function Form({ email, setEmail, password, setPassword, handleSub
                 placeholder="Digite seu email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)} 
+                required
             />
             <label htmlFor="Senha">Senha:</label>
             <input 
@@ -25,12 +26,13 @@ export default function Form({ email, setEmail, password, setPassword, handleSub
                 placeholder="Digite sua senha"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)} 
+                required
             />
             <button id="versenha" onClick={togglePasswordVisibility}>
                 {showPassword ? "🙈" : "👁"} {/* Troca o ícone com base na visibilidade */}
             </button>
             {erro && <p>{erro}</p>}
-            <button type="submit">Enviar</button>
+            <button type="submit">Cadastrar</button>
         </form>
     );
 }

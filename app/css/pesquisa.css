@@ -20,4 +20,11 @@ body{
     margin-top:10px;
     margin-right:20px;
     margin-left:20px;
+    margin-bottom:50px;
+}
+.botaovoltar{
+    font-size:20px;
+    border:solid black 1px;
+    padding:9px 120px 9px 120px;
+    
 }

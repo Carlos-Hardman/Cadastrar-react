@@ -75,6 +75,8 @@ const ListaUsuarios = () => {
                     Próximo
                 </button>
             </div>
+            <a href="http://localhost:3000/boas-vindas" className="botaovoltar">Voltar</a>
+
         </div>
     );
 };

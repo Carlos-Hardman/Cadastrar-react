@@ -17,7 +17,7 @@ export default function Cadastro() {
             
             <Form
                 email={email}
-                setEmail={setEmail}
+                setEmail={setEmail} 
                 password={password}
                 setPassword={setPassword}
                 handleSubmit={handleSubmit}
