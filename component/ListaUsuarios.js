@@ -61,14 +61,14 @@ const ListaUsuarios = () => {
                 )}
             </ul>
             <div>
-                <button
+                <button className="paginacao"
                     onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
                     disabled={currentPage === 1}
                 >
                     Anterior
                 </button>
                 <span>Página {currentPage} de {totalPages}</span>
-                <button
+                <button className="paginacao"
                     onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
                     disabled={currentPage === totalPages}
                 >

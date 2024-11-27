@@ -1,10 +1,23 @@
+body{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    text-align:center;
+}
 .listausuario{
     display:flex;
     justify-content:space-between;
     border:solid black;
-    padding:10px;
+    padding:15px;
     margin-bottom:10px;
-    width:300px;
+    width:450px;
     text-align:center;
     list-style:none;
+    font-size:20px;
+}
+.paginacao{
+    font-size:18px;
+    margin-top:10px;
+    margin-right:20px;
+    margin-left:20px;
 }
